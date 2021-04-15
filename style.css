@@ -1,0 +1,17 @@
+  
+.wraper-box {
+	width: 400px;
+	height: 400px;
+	background-color: yellow;
+	position: relative;
+	}
+.child-box {
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) rotate(45deg);
+	transition: all 0.5s ease;
+}
